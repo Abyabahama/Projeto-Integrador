@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%, 5%;
+}
+
+#cabecalho {
+    align-items: center;
+
+}
+
+#contato {
+    display: block;
+    background-color:#E5B27F;
+    padding: 10px;
+    text-align: end;
+    font-size: larger;
+}
+
+#busca {
+    height: 30px;
+    width: 100%;
+}
+
+#item {
+    text-align: center;
+}
+
+#nav {
+    background-color: #E5B27F;
+}
+
+#botao {
+    background-color: #E5B27F;
+    border: none;
+}
+
+#destaque, #seta {
+    text-align: center;
+    align-items: center;
+}
+
+#titulo {
+    text-align: center;
+    background-color: #E5B27F;
+    border: black solid 1px;
+}
+
+article {
+    display: inline-block;
+    text-align: center;
+}
+
+#anuncio {
+    align-content: center;
+}
+
+.rodape {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#wishlist {
+    text-align: center;
+}
+
+#desejo {
+    background-color: aliceblue;
+}
