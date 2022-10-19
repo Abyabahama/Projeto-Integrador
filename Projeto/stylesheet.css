@@ -70,3 +70,37 @@ article {
 #desejo {
     background-color: aliceblue;
 }
+
+#login_top {
+    text-align: center;
+    font-size: large;
+}
+
+#form {   
+    border: 0px
+}
+
+#input {
+        
+        width: 400px;   
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;   
+        border: 2px solid gr;   
+        box-sizing: border-box; 
+
+}
+
+#botao_login {
+    background-color: rgb(236, 135, 33, .10);   
+    width: 100%;  
+     color: black;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+}
+
+#login_sm {
+    text-align: center;
+}
