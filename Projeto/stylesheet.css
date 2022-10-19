@@ -69,6 +69,7 @@ article {
 
 #desejo {
     background-color: aliceblue;
+    display: inline-block;
 }
 
 #login_top {
