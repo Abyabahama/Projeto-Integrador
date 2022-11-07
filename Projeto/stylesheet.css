@@ -11,9 +11,13 @@ body {
 
 }
 
+#recomendacoes {
+    background-color: #d1b395;
+    border-radius: 20px;
+}
+
 #contato {
-    display: block;
-    background-color:#E5B27F;
+    background-color:#d1b395;
     padding: 10px;
     text-align: end;
     font-size: larger;
@@ -29,11 +33,11 @@ body {
 }
 
 #nav {
-    background-color: #E5B27F;
+    background-color: #d1b395;
 }
 
 #botao {
-    background-color: #E5B27F;
+    background-color: #d1b395;
     border: none;
 }
 
@@ -44,7 +48,7 @@ body {
 
 #titulo {
     text-align: center;
-    background-color: #E5B27F;
+    background-color: #d1b395;
     border: black solid 1px;
 }
 
