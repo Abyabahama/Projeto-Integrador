@@ -109,3 +109,77 @@ article {
 #login_sm {
     text-align: center;
 }
+#cadastrado {
+    text-align: center;
+    margin-top: 10px;
+    background: rgba(236, 135, 33, 0.1);
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+#cadastrado_nota {
+
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#cadastro_top {
+    font-size: 30px;
+}
+#botao_cadastro {
+    background-color: rgb(236, 135, 33, .10);   
+    width: 100%;  
+     color: black;   
+     padding: 10px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer; 
+}
+#cadastrar_caixa {
+    width: 300px;  
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 5px;   
+    border: 2px solid gr;   
+    box-sizing: border-box; 
+}
+#cadastro {
+    margin-left: 200px;
+}
+
+#cadastrar_data {
+    width: 130px;  
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 5px;   
+    border: 2px solid gr;   
+    box-sizing: border-box; 
+}
+#nome_cadastro {
+    font-size: 20px;
+    line-height: 36px;
+}
+#botao_cadastre_se {
+    background-color: rgb(236, 135, 33, .10);   
+    width: 30%;  
+     color: black;   
+     padding: 10px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer; 
+     font-size: 30px;
+}
+#texto_cadastro {
+    font-size: 10px;
+}
+#cliente {
+    font-size: 25px;
+}
