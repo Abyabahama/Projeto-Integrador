@@ -142,6 +142,8 @@ article {
      margin: 10px 0px;   
      border: none;   
      cursor: pointer; 
+     text-align: center;
+     text-decoration: none;
 }
 #cadastrar_caixa {
     width: 300px;  
@@ -176,10 +178,15 @@ article {
      border: none;   
      cursor: pointer; 
      font-size: 30px;
+     text-align: center;
+     text-decoration: none;
 }
 #texto_cadastro {
     font-size: 10px;
+    text-align: center;
+    
 }
 #cliente {
     font-size: 25px;
+    text-align: center;
 }
