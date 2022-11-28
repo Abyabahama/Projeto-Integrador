@@ -190,3 +190,43 @@ article {
     font-size: 25px;
     text-align: center;
 }
+#compra{
+    background: #EEAE6E;
+}
+#lista-desejo{
+    background: rgba(236, 135, 33, 0.1);
+}
+#Add-carrinho{
+    background: #EEAE6E;
+}
+#Add-lista{
+    background:rgba(236, 134, 33, 0.43);
+}
+.rating input
+{
+    display: none;
+
+}
+.rating label{
+    display: block;
+    cursor:pointer;
+    width: 50px;
+    background:#ccc;
+}
+.canais-contato{
+position: relative;
+}
+#descricao{
+   justify-content: start; 
+}
+footer{
+    background-color:whitesmoke;
+}
+
+#sim{
+    max-width:250px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
