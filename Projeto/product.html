@@ -58,7 +58,7 @@
         </div>
       </nav>
 
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" alt="navegacao pagina">
           <div class="container">
             <div class="row">
               <ol class="breadcrumb col-lg-4 m-lg-4">
@@ -70,27 +70,23 @@
 
         </nav>
 
-        <!--criar dois asides um para a mini imagens e o outro para as infromações  -->
-        <!-- criar um container com uma rol -->
-        <!-- criar divs com col para cada elemento-->
-
         <article id="produto">
 
           <div class="container">
               <div class= "row" >
-                <div class="col-md-5 px-md-5 ">
+                <div class="col-md-5 px-md-5 mx-auto" alt="carossel produto">
                   <div class="d-inline-block">
                     <div id="carouselProduct" class="carousel carousel-dark slide " data-bs-touch="false">
                         <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active" aria-current="true" aria-label="imagem 1"></button>
+                          <button type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" aria-label="Slide imagem 2"></button>
                         </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active" >
-                            <img src="imagens/loewe.png" class="d-block img-fluid p-3" alt="...">
+                            <img src="imagens/loewe.png" class="d-block img-fluid p-3" alt="imagem 1 produto">
                           </div>
                           <div class="carousel-item">
-                            <img src="imagens/loewe2.png" class="d-block img-fluid p-3" alt="">
+                            <img src="imagens/loewe2.png" class="d-block img-fluid p-3" alt="imagem 2 produto">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
@@ -105,9 +101,9 @@
 
               </div>
                   </div>
-              <div class="col-md-4 mx-md-5 px-md-5">
+              <div class="col-md-5 mx-0 px-md-5">
                   <div class="text-lg-center my-2">
-                    <h1>Loewe</h1>
+                    <h1 alt="titulo">Loewe</h1>
                   </div>
                             <!-- classificação -->
                 <div id="ratings"class="text-center">
@@ -120,7 +116,7 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                       
-                  <h3>R$389,00</h3>
+                  <h3>R$589,00</h3>
                   <!-- botão filtro tamanhos -->
                   <div class="container-fluid">
                   <div class="btn-group-vertical my-4" role="group" aria-label="Vertical button group">
@@ -148,59 +144,63 @@
         </article>
         <section>
           <div class="container">
-            <div class="row">
-              <div class="col-md-8 my-4">
+            <div class="row justify-content-start">
+              <div id="descricao" class="col-md-6 my-4 ">
                 <h3>Descrição do produto</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laboriosam ab natus, ea at voluptas accusamus hic illum rem nostrum explicabo eligendi eum pariatur temporibus officiis beatae debitis voluptatibus numquam ipsam perferendis, atque sequi blanditiis. Amet, dolorum fugiat nulla assumenda qui voluptate est dolores doloremque aut nihil totam? Earum, iusto?</p>
+                <p>O perfume Loewe 001 Woman reinterpreta o aroma de uma carícia de pele, um aroma profundo, macio e apelativo.
+                  As notas de coração incluem os citrinos brilhantes, espumantes e frescos, a Bergamota Italiana e a Tangerina da Calábria, e a personalidade da Pimenta Rosa. Um coração de narcótico jasmim egípcio misturado com o cheiro de linho de toque limpo fornece uma criação única para este acorde, para acompanhar o sândalo. Este coração moderno, definido como floral, fresco, frutado, quente e poderoso, foi inspirado pelo cheiro daquela manhã depois. Entre as notas de fundo, a nova geração exclusiva "Ambar 001" é acompanhada por uma sensação Gourmand graças à baunilha. Os ingredientes comuns das duas fragrâncias dão um despertar pessoal e duradouro.</p>
             </div>
           </div>
         </section>
         <section>
           <div class="container">
             <div class="row">
-              <h2>Produtos Similares</h2>
-            </div>
-            <div class="row">
-            <div class="col-md-12 col-sm-6 my-4">
-              
-                <div id="produto-sim"class="card-group w-50">
-                  <div class="card">
-                    <img src="imagens/lancome.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center ">
-                      <h5 class="card-title">Lancôme</h5>
-                      <p class="card-text">Perfume Lancôme Idôle Nectar Feminino</p>
-                      <a href="#" id="Add-carrinho" class="btn my-2"><i class="bi bi-cart-fill">
-                      </i></a>
-                      <a href="wishlist.html" id="Add-lista" class="btn">         <i class="bi bi-heart-fill">
-                      </i></a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="imagens/lancome.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-center ">
-                      <h5 class="card-title">Lancôme</h5>
-                      <p class="card-text">Perfume Lancôme Idôle Nectar Feminino</p>
-                      <a href="#" id="Add-carrinho" class="btn my-2"><i class="bi bi-cart-fill">
-                      </i></a>
-                      <a href="wishlist.html" id="Add-lista" class="btn">         <i class="bi bi-heart-fill">
-                      </i></a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="imagens/lancome.png" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body text-center ">
-                      <h5 class="card-title">Lancôme</h5>
-                      <p class="card-text">Perfume Lancôme Idôle Nectar Feminino</p>
-                      <a href="#" id="Add-carrinho" class="btn my-2"><i class="bi bi-cart-fill">
-                      </i></a>
-                      <a href="wishlist.html" id="Add-lista" class="btn"><i class="bi bi-heart-fill">
-                      </i></a>
-                    </div>
+              <h2 class="text-center">Produtos Similares</h2>
+          </div>
+          <div class="container">
+
+            <div class="row justify-content-center mx-auto">
+              <div class="col-md-3 align-items-center">
+                <div class="card" id="sim">
+                  <img src="imagens/lancome.png" class="card-img-top" alt="perfume recomendacao">
+                  <div class="card-body text-center ">
+                    <h5 class="card-title">Lancôme</h5>
+                    <p class="card-text">Perfume Lancôme Idôle Nectar Feminino</p>
+                    <h6 class="car-text"><strong>R$489,00</strong></h6> 
+                    <button type="button" class="btn my-2" href="wishlist.html" id="Add-lista">
+                      <i class="bi bi-heart-fill"></i><h6>Adicionar a Lista</h6>
+                    </button>
                   </div>
                 </div>
-              </divf>
-                
+              </div> 
+              <div class="col-md-3">
+                <div class="card" id="sim">
+                  <img src="imagens/jimmy.png" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body text-center ">
+                    <h5 class="card-title">Jimmy Choo</h5>
+                    <p class="card-text">Perfume Jimmy Choo forever feminino</p>
+                    <h6 class="car-text"><strong>R$500,00</strong></h6>
+                    <button type="button" class="btn my-2" href="wishlist.html" id="Add-lista">
+                      <i class="bi bi-heart-fill"></i><h6>Adicionar a Lista</h6>
+                    </button>
+                  </div>
+                </div>
               </div>
+              <div class="col-md-3">
+                <div class="card" id="sim">
+                  <img src="imagens/lancome.png" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body text-center ">
+                    <h5 class="card-title">Lancôme</h5>
+                    <p class="card-text">Perfume Lancôme Idôle Nectar Feminino</p>
+                    <h6 class="car-text"><strong>R$489,00</strong></h6>
+                    <button type="button" class="btn my-2" href="wishlist.html" id="Add-lista">
+                      <i class="bi bi-heart-fill"></i><h6>Adicionar a Lista</h6>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section>
@@ -260,10 +260,11 @@
 
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="nome">
           </div>
-            <div id="ratings"class="">
+            <div id="ratings"class="my-2">
+              <label>Classificação</label>
               <div class="text-warning">
                 <i class="bi bi-star"></i>
                 <i class="bi bi-star"></i>
@@ -282,29 +283,28 @@
         </div>
         </section>
           
-            <footer>
-              <div class="container">
-                <div class="row">
-                  
-                  <p class="col-lg-4 mb-0 text-muted">© 2022 Company, Inc</p>
-      
-                  <ul class="nav col-lg-6 justify-content-center align-items-center px-lg-5">
-                      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Página Inicial</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Feminino</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Masculino</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Marcas</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link 
-                      px-2 text-muted">Sobre</a></li>
-                    </li>
-                    <li class="nav-item">Redes Sociais
-                      <i class="bi bi-facebook"></i>
-                      <i class="bi bi-instagram"></i>  
-                    </li>
-                  </ul>
-                </div>
-              </div>     
+        <footer>
+          <div class="container">
+            <div class="row my-6">
               
-        </footer>
-
+              <p class="col-lg-4  text-muted">© 2022 Company, Inc</p>
+  
+              <ul class="nav col-lg-6 justify-content-center align-items-center px-lg-5">
+                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Página Inicial</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Feminino</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Masculino</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Marcas</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link 
+                  px-2 text-muted">Sobre</a></li>
+                </li>
+                <li class="nav-item">Redes Sociais
+                  <button type = "button" class= "btn btn-floating "href="contato.html"><i class="bi bi-whatsapp text-dark"></i></button>
+                  <button type="button" class="btn btn-floating" href="contato.html"><i class="bi bi-instagram text-dark"></i></button>  
+                </li>
+              </ul>
+            </div>  
+          </div>     
+          
+    </footer>
     </body>
 </html>
