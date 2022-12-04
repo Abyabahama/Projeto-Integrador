@@ -230,3 +230,20 @@ footer{
     width: 50px;
     height: 50px;
 }
+
+#MeusPedidos {
+    background: #EEAE6E;
+    
+}
+#pedido {
+    background: #f3d7bc;
+    border: 1px solid #EEAE6E;
+}
+
+#VerPedido {
+    color:  #e08428;
+}
+
+#informacao {
+    background: #f3d7bc;
+}
