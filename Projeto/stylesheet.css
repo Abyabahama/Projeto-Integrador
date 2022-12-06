@@ -600,3 +600,18 @@ div.product-info2{
 #informacoes-produto {
     background-color: #f8e7d4;
 }
+@media only screen and (max-width: 600px) {
+    #botao_cadastro {
+        width: 200%;
+        margin-left: -200px;
+    }}
+
+@media only screen and (max-width: 600px) {
+    #botao_cadastre_se {
+        width: 80%;
+    }}
+
+@media only screen and (max-width: 600px) {
+    #cadastrar_data, #nome_cadastro, #cadastrar_caixa, #cadastro_top, #genero_cadastro {
+        margin-left: -200px;
+    }}
