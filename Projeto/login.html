@@ -23,7 +23,7 @@
       </div>
   </div>
 
-  <nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
+  <nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Principal</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,13 +77,27 @@
             <div class="col-10">
                  Esqueceu <a href="#">a senha?</a>
             </div>
-            <div class="row justify-content-center">
-              <button class="btn btn-lg btn-dark col-md-6 my-4" type="submit">Entrar</button>
+            <div class="container">
+              <div class="row justify-content-center mx-0">
+                <button class="btn btn-lg btn-dark col-md-6 my-4" type="submit">Entrar</button>
+              </div>
             </div>
     
-    <div id="login_sm" class="col-12">
+    <div id="login_sm" class="col-md-12">
         <a href="home_login.html">FAÇA LOGIN COM AS REDES SOCIAIS<br></a>
         <a href="home_login.html">Não tem uma conta?</a>
-    </div>    
+    </div> 
+    
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
+</html>
 

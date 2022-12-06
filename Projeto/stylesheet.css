@@ -42,7 +42,9 @@ body {
 #nav {
     background-color: #d1b395;
 }
-
+.navbar{
+    background-color: rgba(157, 96, 5, 0.295);
+}
 #botao {
     background-color: #d1b395;
     border: none;
