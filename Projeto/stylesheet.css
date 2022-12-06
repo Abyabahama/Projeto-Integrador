@@ -156,17 +156,7 @@ article {
      text-align: center;
      text-decoration: none;
 }
-#cadastrar_caixa {
-    width: 300px;  
-    margin-left: auto;
-    margin-right: auto; 
-    padding: 5px;   
-    border: 2px solid gr;   
-    box-sizing: border-box; 
-}
-#cadastro {
-    margin-left: 200px;
-}
+
 
 #cadastrar_data {
     width: 130px;  
@@ -235,7 +225,6 @@ footer{
 }
 
 .sim{
-    max-width: 245px;
     border: none;
 }
 .social{
@@ -252,8 +241,12 @@ footer{
 }
 .marcas{
     border: none;
-    background-color: transparent;
-    font-size: 30px;
+    font-size: 25px;
+    background-color: #f0d9c263;
+}
+.marcas:hover {
+    background-color: #d1b395;
+    color: black;
 }
 div#linha-contato{
     display: flex;
@@ -506,7 +499,7 @@ div#formas1{
     padding: 10px;
     height: 520px;
     border: 1px solid #000;
-    background-color: rgba(255, 192, 203, 0.616);
+    background-color: rgba(231, 219, 202, 0.705);
     
 }
 
@@ -514,7 +507,7 @@ div#formas2{
     padding: 10px;
     height: auto;
     border: 1px solid #000;
-    background-color: rgba(255, 192, 203, 0.616);
+    background-color: rgba(231, 219, 202, 0.705);
     
 }
 
@@ -570,7 +563,7 @@ footer.valor-area{
 }
 
 div.product-info2{
-    background-color: rgba(255, 192, 203, 0.616);
+    background-color: rgba(231, 219, 202, 0.705);
     display: flex;
     font-size: 15px;
     
@@ -586,7 +579,7 @@ div.product-info2{
 .subtotal-area2, .frete-area2{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255, 192, 203, 0.616);
+    background-color: rgba(231, 219, 202, 0.705);
 }
 
 .confirmacao{
@@ -600,18 +593,4 @@ div.product-info2{
 #informacoes-produto {
     background-color: #f8e7d4;
 }
-@media only screen and (max-width: 600px) {
-    #botao_cadastro {
-        width: 200%;
-        margin-left: -200px;
-    }}
 
-@media only screen and (max-width: 600px) {
-    #botao_cadastre_se {
-        width: 80%;
-    }}
-
-@media only screen and (max-width: 600px) {
-    #cadastrar_data, #nome_cadastro, #cadastrar_caixa, #cadastro_top, #genero_cadastro {
-        margin-left: -200px;
-    }}
