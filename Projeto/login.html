@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
-    <title>Index</title>
+    <title>Login</title>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
@@ -14,50 +14,52 @@
     crossorigin="anonymous"></script>
     
     <div id="contato" class="row">
-        <img src="imagens/logo.png" class="col-3" id="logo" alt="">
-        <div class="col-9 d-flex align-items-end justify-content-end">
-            <span>Canais de Atendimento</span>
-            <img src="imagens/telefone.png" alt="">
-        </div>
-    </div>
+      <img src="imagens/logo.png" class="col-3" id="logo" alt="">
+      <div class="col-9 d-flex align-items-end justify-content-end">
+        <a  id="atendimento" href="contact.html">
+          <span class="text-dark">Canais de Atendimento</span>
+          <img src="imagens/telefone.png" alt="imagem telefone- atendimento">
+        </a>
+      </div>
+  </div>
 
-    <nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Principal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="wishlist.html">Lista de Desejos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Carrinho</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Masculino</a></li>
-                  <li><a class="dropdown-item" href="#">Feminino</a></li>
-                  <li><a class="dropdown-item" href="#">Marcas</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Busca</button>
-            </form>
-          </div>
+  <nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Principal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="wishlist.html">Lista de Desejos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrrinho.html">Carrinho</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="feminino.html">Feminino</a></li>
+                <li><a class="dropdown-item" href="masculino.html">Masculino</a></li>
+                <li><a class="dropdown-item" href="marcas.html">Marcas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Busca</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     <div class="container mt-4" id="login_top">
-      <div class="title" id="login_top">FAÇA SEU LOGIN</div>
+      <div class="title" id="login_top"><h1>FAÇA SEU LOGIN</h1></div>
       <div class="content">
         <form>
           <div class="container-fluyd row">
@@ -75,12 +77,12 @@
             <div class="col-10">
                  Esqueceu <a href="#">a senha?</a>
             </div>
-            <div>
-              <button type="submit" id="botao_login">Entrar</button>
+            <div class="row justify-content-center">
+              <button class="btn btn-lg btn-dark col-md-6 my-4" type="submit">Entrar</button>
             </div>
     
     <div id="login_sm" class="col-12">
-        <a href="#">FAÇA LOGIN COM AS REDES SOCIAIS<br></a>
+        <a href="home_login.html">FAÇA LOGIN COM AS REDES SOCIAIS<br></a>
         <a href="home_login.html">Não tem uma conta?</a>
     </div>    
 </body>

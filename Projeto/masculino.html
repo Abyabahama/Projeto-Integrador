@@ -14,50 +14,50 @@
   crossorigin="anonymous"></script>
   
   <div id="contato" class="row">
-      <img src="imagens/logo.png" class="col-3" id="logo" alt="imagem logo site">
-      <div class="col-9 d-flex align-items-end justify-content-end">
-        <a  id="atendimento" href="contact.html">
-          <span class="text-dark">Canais de Atendimento</span>
-          <img src="imagens/telefone.png" alt="imagem canais de atendimento">
-        </a>
-      </div>
-  </div>
+    <img src="imagens/logo.png" class="col-3" id="logo" alt="imagem logo site">
+    <div class="col-9 d-flex align-items-end justify-content-end">
+      <a  id="atendimento" href="contact.html">
+        <span class="text-dark">Canais de Atendimento</span>
+        <img src="imagens/telefone.png" alt="imagem canais de atendimento">
+      </a>
+    </div>
+</div>
 
-  <nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Principal</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="wishlist.html">Lista de Desejos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Carrinho</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Categorias
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="masculino.html">Masculino</a></li>
-                <li><a class="dropdown-item" href="feminino.html">Feminino</a></li>
-                <li><a class="dropdown-item" href="#">Marcas</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-secondary" type="submit">Busca</button>
-          </form>
-        </div>
+<nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Principal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="wishlist.html">Lista de Desejos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Carrinho</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="feminino.html">Feminino</a></li>
+              <li><a class="dropdown-item" href="masculino.html">Masculino</a></li>
+              <li><a class="dropdown-item" href="marcas.html">Marcas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Busca</button>
+        </form>
       </div>
-    </nav>
+    </div>
+  </nav>
     <main>
         <section>
           <div class="container">
@@ -131,11 +131,11 @@
                           <h5 class="card-title">Prada</h5>
                           <p class="card-text">Perfume Masculino</p>
                           <h6 class="card-text"><strong>R$499,00</strong></h6>
-                          <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                            <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                          <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                            <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                           </button>
-                          <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                            <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                          <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                            <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                           </button>
                         </div>
                     </div>
@@ -147,11 +147,11 @@
                         <h5 class="card-title">Dior</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 799,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
@@ -163,11 +163,11 @@
                         <h5 class="card-title">Coach</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 379,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
@@ -178,48 +178,48 @@
                 <div class="row justify-content-center">
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                        <img src="imagens/prada.png" class="card-img-top img-fluid" alt="imagem perfume masculino1">
+                        <img src="imagens/prada.png" class="card-img-top img-fluid" alt="imagem perfume masculino 4">
                         <div class="card-body text-center ">
                           <h5 class="card-title">Prada</h5>
                           <p class="card-text">Perfume Masculino</p>
                           <h6 class="card-text"><strong>R$499,00</strong></h6>
-                          <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                            <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                          <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                            <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                           </button>
-                          <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                            <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                          <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                            <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                           </button>
                         </div>
                     </div>
                   </div> 
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                      <img src="imagens/diorMasc.png" class="card-img-top img-fluid" alt="imagem perfume masculino2">
+                      <img src="imagens/diorMasc.png" class="card-img-top img-fluid" alt="imagem perfume masculino 5">
                       <div class="card-body text-center ">
                         <h5 class="card-title">Dior</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 799,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                      <img src="imagens/coach.png" class="card-img-top img-fluid" alt="imagem perfume masculino 3">
+                      <img src="imagens/coach.png" class="card-img-top img-fluid" alt="imagem perfume masculino 6">
                       <div class="card-body text-center ">
                         <h5 class="card-title">Coach</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 379,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
@@ -230,48 +230,48 @@
                 <div class="row justify-content-center">
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                        <img src="imagens/prada.png" class="card-img-top img-fluid" alt="imagem perfume masculino1">
+                        <img src="imagens/prada.png" class="card-img-top img-fluid" alt="imagem perfume masculino 7">
                         <div class="card-body text-center ">
                           <h5 class="card-title">Prada</h5>
                           <p class="card-text">Perfume Masculino</p>
                           <h6 class="card-text"><strong>R$499,00</strong></h6>
-                          <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                            <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                          <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                            <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                           </button>
-                          <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                            <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                          <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                            <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                           </button>
                         </div>
                     </div>
                   </div> 
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                      <img src="imagens/diorMasc.png" class="card-img-top img-fluid" alt="imagem perfume masculino2">
+                      <img src="imagens/diorMasc.png" class="card-img-top img-fluid" alt="imagem perfume masculino 8">
                       <div class="card-body text-center ">
                         <h5 class="card-title">Dior</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 799,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="card sim border-0">
-                      <img src="imagens/coach.png" class="card-img-top img-fluid" alt="imagem perfume masculino 3">
+                      <img src="imagens/coach.png" class="card-img-top img-fluid" alt="imagem perfume masculino 9">
                       <div class="card-body text-center ">
                         <h5 class="card-title">Coach</h5>
                         <p class="card-text">Perfume Masculino</p>
                         <h6 class="car-text"><strong>R$ 379,00</strong></h6>
-                        <button type="button" class="btn btn col-12" href="product.html" id="Add-carrinho">
-                          <h6>Comprar <i class="bi bi-cart-fill"></i> </h6>
+                        <button href="product.html" type="button" title="comprar" class="btn btn col-12" id="Add-carrinho">
+                          <a class="link" href="product.html"><h6>Comprar<i class="bi bi-cart-fill"></i> </h6></a>
                         </button>
-                        <button type="button" class="btn btn col-12 my-2" href="wishlist.html" id="Add-lista">
-                          <h6>Adicionar <i class="bi bi-heart-fill"></i> </h6>
+                        <button href="wishlist.html" type="button" title="Adicionar lista" class="btn btn col-12 my-2 link" id="Add-lista">
+                          <a class="link" href="wishlist.html"><h6>Adicionar <i class="bi bi-heart-fill"></i> </h6></a>
                         </button>
                       </div>
                     </div>
@@ -297,25 +297,26 @@
     </main>
     <footer>
       <div class="container">
-        <div class="row my-6">
-          
-          <p class="col-lg-4  text-muted">© 2022 Company, Inc</p>
-
-          <ul class="nav col-lg-6 justify-content-center align-items-center px-lg-5">
-              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Página Inicial</a></li>
-              <li class="nav-item"><a href="feminino.html" class="nav-link px-2 text-muted">Feminino</a></li>
-              <li class="nav-item"><a href="masculino.html" class="nav-link px-2 text-muted">Masculino</a></li>
-              <li class="nav-item"><a href="marcas.html" class="nav-link px-2 text-muted">Marcas</a></li>
-              <li class="nav-item"><a href="index.html" class="nav-link 
-              px-2 text-muted">Sobre</a></li>
-            </li>
-            <li class="nav-item">Redes Sociais
-              <button type = "button" class= "btn btn-floating "><a href="contact.html"><i class="bi bi-whatsapp text-dark"></i></a></button>
-              <button type="button" class="btn btn-floating"><a href="contact.html"><i class="bi bi-instagram text-dark"></i></a></button>  
-            </li>
-          </ul>
-        </div>  
-      </div>     
-    </footer>
+          <div class="row my-6">
+            
+            <p class="col-lg-4  text-muted">© 2022 Company, Inc</p>
+  
+            <ul class="nav col-lg-6 justify-content-center align-items-center px-lg-5">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Página Inicial</a></li>
+                <li class="nav-item"><a href="feminino.html" class="nav-link px-2 text-muted">Feminino</a></li>
+                <li class="nav-item"><a href="masculino.html" class="nav-link px-2 text-muted">Masculino</a></li>
+                <li class="nav-item"><a href="marcas.html" class="nav-link px-2 text-muted">Marcas</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link 
+                px-2 text-muted">Sobre</a></li>
+              </li>
+              <li class="nav-item">Redes Sociais
+                <button type = "button" class= "btn btn-floating "><a href="contact.html"><i class="bi bi-whatsapp text-dark"></i></a></button>
+                <button type="button" class="btn btn-floating"><a href="contact.html"><i class="bi bi-instagram text-dark"></i></a></button>  
+              </li>
+            </ul>
+          </div>  
+        </div>     
+        
+  </footer>
 </body>
 </html>

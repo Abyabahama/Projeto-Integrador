@@ -3,21 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="CSS/dados-compra.css">
+    <title>Endereço e pagamento</title>
+    <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
-    
-    
-    <div id="contato" class="row">
-      <img src="imagens/logo.png" class="col-3" id="logo" alt="">
-      <div class="col-9 d-flex align-items-end justify-content-end">
-          <span>Canais de Atendimento</span>
-          <img src="imagens/telefone.png" alt="">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+  crossorigin="anonymous"></script>
+  
+  <div id="contato" class="row">
+    <img src="imagens/logo.png" class="col-3" id="logo" alt="">
+    <div class="col-9 d-flex align-items-end justify-content-end">
+      <a  id="atendimento" href="contact.html">
+        <span class="text-dark">Canais de Atendimento</span>
+        <img src="imagens/telefone.png" alt="">
+      </a>
+    </div>
+</div>
+
+<nav class="navbar col-xl-10 offset-xl-1 navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Principal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="wishlist.html">Lista de Desejos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrrinho.html">Carrinho</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="feminino.html">Feminino</a></li>
+              <li><a class="dropdown-item" href="masculino.html">Masculino</a></li>
+              <li><a class="dropdown-item" href="marcas.html">Marcas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Busca</button>
+        </form>
       </div>
     </div>
+  </nav>
 
     <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5" id="check-processos">
           <div><img src="imagens/check.svg" alt="Aprovado"><p>Pedido</p></div>
@@ -27,16 +67,16 @@
         <div class="col-12 row mt-5">
           <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 " id="caixa-dados">
             <div id="processo-endereco">
-            <p><strong>1.Endereço</strong></p>
-            <p><strong>Endereço principal</strong></p>
-            <p><strong>Carolina Ferreira</strong></p>
-            <p>Rua pantojo, 1787</p>
-            <p>095550-350, São Paulo-SP</p>
-            <p>(11) 99999-9999</p>
-            <p>carolferreira@gmail.com</p>
+            <p class="confirmacao"><strong>1.Endereço</strong></p>
+            <p class="confirmacao"><strong>Endereço principal</strong></p>
+            <p class="confirmacao"><strong>Carolina Ferreira</strong></p>
+            <p class="confirmacao">Rua pantojo, 1787</p>
+            <p class="confirmacao">095550-350, São Paulo-SP</p>
+            <p class="confirmacao">(11) 99999-9999</p>
+            <p class="confirmacao">carolferreira@gmail.com</p>
             <button>Inserir novo endereço</button>
             <div class="linha-divisoria mt-2"></div>
-            <p><strong>Endereço de entrega</strong></p>
+            <p class="confirmacao"><strong>Endereço de entrega</strong></p>
             <form>
               <input type="checkbox" id="endereco-principal" for="confirma-endereco">
               <label id="confirma-endereco">Endereço de entrega igual ao principal</label>
@@ -48,7 +88,7 @@
           <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" id="caixa-dados">
             <div >
               <div id="processo-entrega">
-                <p><strong>2.Opções de Entrega</strong></p>
+                <p class="confirmacao"><strong>2.Opções de Entrega</strong></p>
                 <form action="#">
                   <input type="checkbox" id="entrega-padrao">
                   <label for="entrega-padrao"><strong>Entrega padrão</strong></label>
@@ -76,14 +116,14 @@
           
           <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4" id="caixa-dados">
             <div id="processo-resumo">
-              <p><strong>4.Resumo da Compra</strong></p>
+              <p class="confirmacao"><strong>4.Resumo da Compra</strong></p>
             <div class="product-info">
-              <img src="imagens\perfume2.jpeg" alt="Foto do produto" id="imagem-produto">
+              <img src="imagens/loewe2 (1).png" alt="Foto do produto" id="imagem-produto">
               <div class="product-text">
-                <p>Paco Rabanne</p>
-                <p>Perfume Fame Ed Paco Rabanne</p>
-                <p>Vendido e entregue por Belle Doce</p>
-                <p>R$ 389,00</p>
+                <p class="confirmacao">Loewe</p>
+                <p class="confirmacao">Perfume Feminino</p>
+                <p class="confirmacao">Vendido e entregue por Belle Doce</p>
+                <p class="confirmacao">R$ 589,00</p>
               </div>   
             </div>
             <div class="linha-divisoria"></div>
@@ -92,16 +132,16 @@
             <button class="botao-cupom">Aplicar</button>
             <div class="linha-divisoria" ></div>
             <div class="subtotal-area">
-              <p>Subtotal</p>
-              <p>R$ 389,00</p>
+              <p class="confirmacao">Subtotal</p>
+              <p class="confirmacao">R$ 589,00</p>
             </div>
             <div class="frete-area">
-              <p>Frete</p>
-              <p>Grátis</p>
+              <p class="confirmacao">Frete</p>
+              <p class="confirmacao">Grátis</p>
             </div>
             <div class="valor-area">
-              <p>Total</p>
-              <p>R$ 389,00</p>
+              <p class="confirmacao">Total</p>
+              <p class="confirmacao">R$ 589,00</p>
             </div>
             <div class="botao-area">
               <a href="confirmacao_compra.html"><button class="botao-finalizar">Finalizar Compra</button></a>
