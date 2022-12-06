@@ -596,3 +596,7 @@ div.product-info2{
 #caixa-dados{
     position: relative;
 }
+
+#informacoes-produto {
+    background-color: #f8e7d4;
+}
